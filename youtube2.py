@@ -10,3 +10,9 @@ df = df[['Adj. Close', 'HL_PCT', 'PCT_change', 'Adj. Volume']]
 
 forecast_col = 'Adj. Close'
 df.fillna()
+
+
+a = [1, 2, 3, 4]
+for i in a:
+    print(i*3)
+print(a[0:2])
